@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write # Needed for the keepalive step to push an empty commit
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
